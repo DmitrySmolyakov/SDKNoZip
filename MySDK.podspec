@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
     s.source            = { :git => 'https://github.com/Vinclai/SDKNoZip.git', :tag => '1.2.0' }
     s.ios.deployment_target = '8.0'
     s.ios.vendored_frameworks = 'MySDK.framework', 'RegulaAssignmentFramework.framework'
-	s.ios.libraries = 'c++', 'iconv'
+	s.ios.library = 'c++'
 end
