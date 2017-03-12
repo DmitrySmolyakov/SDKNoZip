@@ -1,0 +1,10 @@
+framework module RegulaAssignmentFramework {
+  umbrella header "RegulaAssignmentFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module RegulaAssignmentFramework.Swift {
+    header "RegulaAssignmentFramework-Swift.h"
+}
